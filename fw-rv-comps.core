@@ -1,0 +1,20 @@
+CAPI=2:
+#****************************************************************************
+#* fw-rv-comps.core
+#****************************************************************************
+
+name: featherweight-ip::fw-rv-comps:0.0.1
+
+filesets:
+  rtl:
+    files:
+      - verilog/rtl/fw_rv_buffer.v
+    file_type: verilogSource
+    depend:
+      - featherweight-ip::fwprotocol-defs
+      
+targets:
+  default:
+    filesets:
+      - rtl
+

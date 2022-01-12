@@ -1,0 +1,12 @@
+
+package:
+   name: fw-rv-comps
+   version: 0.0.1
+
+   deps:
+      - name: fwprotocol-defs
+        url: http://github.com/featherweight-ip/fwprotocol-defs.git
+        
+   dev-deps:
+      - name: fwprotocol-defs
+        url: http://github.com/featherweight-ip/fwprotocol-defs.git
